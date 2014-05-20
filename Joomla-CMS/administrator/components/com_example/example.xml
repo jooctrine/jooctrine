@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>Example</name>
+	<author>Herman Peeren, Yepr</author>
+	<creationDate>March 2014</creationDate>
+	<copyright>(C) 2013-2014 Herman Peeren, Yepr</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>herman@yepr.nl</authorEmail>
+	<authorUrl>www.yepr.eu</authorUrl>
+	<version>2.0</version>
+	<description>Example, component that uses Jooctrine (= Doctrine ORM in Joomla!)</description>
+
+	<files folder="site">
+		<filename>example.php</filename>
+	</files>
+	<administration>
+		<!-- Administration  -->
+		<menu  link="option=com_example">Example Management</menu>
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>example.php</filename>
+		</files>
+	</administration>
+
+    <!-- TODO: install Doctrine + Jooctrine + componentdispatcher-plugin if not present  -->
+</extension>
+
+

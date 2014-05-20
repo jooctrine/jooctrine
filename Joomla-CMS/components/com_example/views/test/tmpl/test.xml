@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Test: ">
+		<message>Only for test-purposes now!</message>
+	</layout>
+	<state>
+		<name>Test</name>
+	</state>
+</metadata>
