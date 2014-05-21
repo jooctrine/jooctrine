@@ -2,6 +2,8 @@ Using Doctrine2 ORM in Joomla!
 ===
 
 WORK IN PROGRESS
+Warning: I'm changing some things at the moment, so things might not work properly!
+Especially changing all namespaces to upercase (and using PSR-4 instead PSR-0).
 
 example of how I use Doctrine ORM in Joomla CMS. This repo
 includes Doctrine 2.4 ORM (and dependencies) in libraries/vendor-library
