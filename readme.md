@@ -1,4 +1,4 @@
-Using Doctrine2 ORM in Joomla!
+Using Doctrine2 ORM in Joomla! See http://jooctrine.org for more info.
 ===
 
 WORK IN PROGRESS
@@ -22,7 +22,7 @@ input form-data with entity-methods in the model.
 
 ------
 
-I've changed some things in the beginning of this year because we now have PSR-4 available. My Joomla-components are namespaced. I was first sticking to the Joomla-CMS-convention to make all directory-names small case and hence also started the namespace with a small case. I'm now in the transition to stick to the more common way to start namespaces with a capital and hence the directory-names too, so you can use the common Composer PSR-4 autoloader. But I sometimes have some issues with the case sensitivity on Linux. BTW only last week heard a very good reason to start namespaces with a capital instead of undercase: then you never have issues when using namespcaces in a string, as a backslash only has special meaning with some small case letters after it. It is not a PSR to start a namespace with a capital and I always thought it was mere convention to do that, but there is some rationale to it too.
+I've changed some things in the beginning of this year because of PSR-4 availablability. My Joomla-components are namespaced. I was first sticking to the Joomla-CMS-convention to make all directory-names small case and hence also started the namespace with a small case. I'm now in the transition to stick to the more common way to start namespaces with a capital and hence the directory-names too, so you can use the common Composer PSR-4 autoloader. But I sometimes have some issues with the case sensitivity on Linux. BTW only last week heard a very good reason to start namespaces with a capital instead of undercase: then you never have issues when using namespcaces in a string, as a backslash only has special meaning with some small case letters after it. It is not a PSR to start a namespace with a capital and I always thought it was mere convention to do that, but there is some rationale to it too.
 
 Here are some links about using Doctrine with the Joomla Framework:
 * in JIssues a branche was started to experiment with it. See http://issues.joomla.org/tracker/jtracker/342 and https://github.com/joomla/jissues/tree/doctrine/src
